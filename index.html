@@ -1,0 +1,39 @@
+    <!DOCTYPE html>
+    <html lang="pt br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>bank vinny tecnoligia</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+        <h1>
+            bank vinny
+        </h1> 
+        <h2>
+            Deposito
+        </h2>
+        <form id="form-deposito" >
+            <input type="text" id="nome-destinatario" required placeholder="nome completo" />
+            <p class="erro-menssagem">
+                o nome precisa ser completo
+            </p>
+            <label for="numero-conta"></label>
+            <input type="number" id="numero-conta" required placeholder="numero da conta"/>
+
+            <label for="valor-deposito"></label>
+            <input type="number" id="valor-deposito" required placeholder="valor"/>
+
+            <textarea placeholder="Descrição (opcional)" id="Descrição"></textarea>
+            <button id="bnt-depositar" type="submit">Depositar</button>
+        </form>
+        </div>
+        <p class="mensagem-sucesso">
+            
+        </p>
+        <script 
+        src="./main.js">
+        </script>
+    </body>
+    </html>
