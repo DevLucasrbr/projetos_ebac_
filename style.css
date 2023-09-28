@@ -19,7 +19,8 @@
     
     body {
     
-    background:  var(--bg-url) no-repeat top center/cover  ;
+    background:  var(--bg-url) top center/cover ;
+   
     
     }
     
