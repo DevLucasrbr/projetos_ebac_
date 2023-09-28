@@ -19,7 +19,7 @@
     
     body {
     
-    background:  var(--bg-url)  ;
+    background:  var(--bg-url) no-repeat top center/cover  ;
     
     }
     
@@ -44,9 +44,9 @@
     
     #profile img {
     
-        width: 200px;
-        border-radius: 30px
-        
+        width: 260px;
+        border-radius: 30px;
+        justify-content: center;
     
     
     }
