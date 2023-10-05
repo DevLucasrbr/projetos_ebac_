@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+.root {
+    --tex-color: rgba(6, 175, 254,0.644);
+
+}
+
+
+* body {
+    background: url(./imagens/degrade\ colorido.jpg)  no-repeat top center/cover  ;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+header {
+    padding: 16px 0;
+    color: var(--tex-color) ;
+    display: flex;
+    border-bottom: 16x solid;
+    justify-content: center;
+}  
+
+
+form  h2{
+    padding: 16px 0;
+    color: var(--tex-color);
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: center;
+    ;
+}
+
+form input,button {
+    margin: auto;
+    padding: 16px 0;
+    display: flex;
+    justify-content:right;
+    background-color: rgba(21, 37, 37, 0.329);
+    border-radius: 30px;
+    color: var(--tex-color);
+}
+
+button {
+    cursor: pointer;
+}
+
+
+li {
+    padding: 0px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
