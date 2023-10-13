@@ -24,7 +24,6 @@ header {
 }
 
 header .container {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 16px ;
@@ -62,4 +61,16 @@ text-decoration: none;
     background-color: aliceblue;
     display: block;
     margin-bottom: 6px;
+}
+
+
+.container-flex {
+    display: flex;
+}
+
+#logort img {
+    max-width: 300px ;
+    margin-right: 24px;
+    border: 1px solid;
+
 }
