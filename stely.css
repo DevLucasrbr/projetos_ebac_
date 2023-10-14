@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    
+    width: 100%;
 }
 
 html {
@@ -12,7 +12,7 @@ html {
 
 .container img {
     max-width: 150px;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     
 }
@@ -84,21 +84,22 @@ section {
 max-height: 1980px;
 margin: auto;
 max-width: 1000px;
+width: 100%;
 
  
 }
 
 #new-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ 
+   
+
     
 }
 
 
 #logort img {
     max-width: 150px ;
-    margin-right: 24px 0;
+    
     border: 1px solid;
   
 
@@ -117,10 +118,12 @@ max-width: 1000px;
 }
 
 #container-paragrafo p {
-    padding: 10px 80px;
+    
     display: flex;
     font-size: 25px;
     text-align:left;
+
+    
 }
 
 .erp img {
@@ -128,6 +131,7 @@ margin: 0 auto;
 display: flex;
 max-height: 1980px;
 max-width: 1000px;
+width: 100%;
 }
 
 
