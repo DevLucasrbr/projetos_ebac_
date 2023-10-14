@@ -49,8 +49,6 @@ nav {
     
 }
 
-nav li {}
-
 nav li {
     list-style: none;
     display: inline;
