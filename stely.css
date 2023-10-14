@@ -11,8 +11,7 @@ html {
 }
 
 .container img {
-    max-width: 150px;
-    width: 100%;
+    max-width: 100px;
     margin: 0 auto;
     
 }
