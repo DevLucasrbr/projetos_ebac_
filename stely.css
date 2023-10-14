@@ -152,11 +152,34 @@ width: 100%;
 
 }
 
-.paragrafo h2 {
-    text-align: center;
-    padding: 18px;
-    font-size: 40px;    
-    border: 1px solid;
+.textlink {
+    align-items:center;
+    padding: 12px;
+    font-size: 20px;  
 }
 
+.linkpro, .webposto {
+    text-align: center;
+    padding: 18px;
+    font-size: 20px;    
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+.imgsistemas h2 {
+    align-items:center;
+    padding: 12px;
+    font-size: 40px;    
+    border: 1px solid;
+} 
+
+
+
+.imgsistemas, .webposto {
+ max-height: 1920px;
+ max-width: 1000px;
+ margin: 0 auto;
+ padding: 50px;
+
+}
 
