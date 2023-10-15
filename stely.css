@@ -84,10 +84,11 @@ section {
 }
 
 #imagens {
-max-height: 1980px;
-margin: auto;
-max-width: 1000px;
-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    max-height: 1980px;
+    max-width: 1000px;
+    width: 100%;
 
  
 }
@@ -100,6 +101,7 @@ width: 100%;
     
     border: 1px solid;
   
+    width: 200px;
 
 }
 
@@ -157,13 +159,21 @@ width: 100%;
     font-size: 20px;  
 }
 
-.linkpro, .webposto {
+.webposto1 {
     text-align: center;
     padding: 18px;
     font-size: 20px;    
     border: 1px solid;
     margin: 0 auto;
 }
+
+.webposto1 img {
+    margin: 0 auto;
+    display: flex;
+    max-height: 1980px;
+    max-width: 1000px;
+    width: 100%;}
+
 
 .imgsistemas h2 {
     align-items:center;
@@ -174,12 +184,36 @@ width: 100%;
 
 
 
-.imgsistemas, .webposto {
+
+
+.webposto {
  max-height: 1920px;
  max-width: 1000px;
  margin: 0 auto;
  padding: 50px;
 
+}
+
+.linkpro1 li {
+    border: 1px solid;
+    text-align: center;
+}
+
+.linkpro1 img {
+    margin: 0 auto;
+    display: flex;
+    max-height: 1980px;
+    max-width: 1000px;
+    width: 100%;
+
+}
+
+
+.textlink  {
+    max-height: 1920px;
+ max-width: 1000px;
+ margin: 0 auto;
+ padding: 50px; 
 }
 
 .campo,
@@ -272,4 +306,7 @@ footer .container{
     text-align: center;
 }
 
-
+.sistemas h2 {
+    border: 1px solid;
+    padding: 20px;
+}
