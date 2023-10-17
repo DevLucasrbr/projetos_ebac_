@@ -32,7 +32,13 @@ $(document).ready(function() {
 
         },
         messages: {
-            nome: 'Por Favor, Digite Seu Nome'
+            nome: 'Por Favor, Digite Seu Nome',
+            email: 'Por Favor, Digite Um Email Valido',
+            telefone: 'Por Favor, Digite Um Email Valido',
+            cnpj:'Por Favor, Coloque seu CNPJ',
+            sistema: 'Por Favor, indique seu sistema'
+
+
             }
     })
     
