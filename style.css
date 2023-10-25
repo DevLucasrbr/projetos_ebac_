@@ -82,18 +82,31 @@ section h2 {
     margin-bottom: 32px;
 }
 
+
+
 aside {
-    padding-left: 40px;
+    padding-left: 90px ;
 }
 
 aside .descricao {
     margin-bottom: 24px;
+    
 }
 
-.descontos {
+.descontos  {
     display: grid;
-    grid-template-columns: repeat(3, 32.6%);
+    grid-template-columns: repeat(2, 16.3%);
     column-gap: 1%;
+    
+}
+
+.imgn {
+    height: 320px;
+    
+}
+
+.td {
+    padding: 20px 0;
 }
 
 
