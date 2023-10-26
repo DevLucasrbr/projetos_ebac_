@@ -6,7 +6,7 @@
 }
 
 .container {
-    max-width: 1024px;
+    max-width: 1980px;
     width: 100%;
     margin: 0 auto;
 }
@@ -112,6 +112,11 @@ aside .descricao {
 .natal {
     height: 320px;
 
+}
+
+.v2 {
+    height: 320px;
+    width: 250px;
 }
 
 
