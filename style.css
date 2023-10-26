@@ -66,7 +66,7 @@ header {
     
 }
 
-.noticia img {
+.novidades img {
     max-width: 100%;
 }
 
@@ -95,12 +95,12 @@ aside .descricao {
 
 .descontos  {
     display: grid;
-    grid-template-columns: repeat(2, 16.3%);
-    column-gap: 1%;
+    grid-template-columns: repeat(3, 32.6%);
+    column-gap: 5%;
     
 }
 
-.imgn {
+.descontos img {
     height: 320px;
     
 }
@@ -108,5 +108,105 @@ aside .descricao {
 .td {
     padding: 20px 0;
 }
+
+.natal {
+    height: 320px;
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .conteudo {
+        display: block;
+    }
+    .container {
+        max-width: 90%;
+    }
+    
+    .destaque {
+        margin-bottom: 56px;
+    }
+
+    .destaque .descricao a {
+        display: block;
+        font-size: 1.5em;
+    }
+
+    .destaque  .descontos img {
+        margin-right: 8px;
+    }
+
+    .descontos {
+        display: block;
+    }
+
+    .descricao {
+        margin-bottom: 32px;
+    }
+
+    aside {
+        padding-left: 0;
+    }
+
+    header div.container {
+        flex-direction: column;
+    }
+
+    .submenu {
+        display: block;
+        width: 100%;
+        position: relative;
+        border: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu li {
+        clear: both;
+    }
+
+    .submenu li {
+        display: block;
+        padding: 8px;
+    }
+
+    .botao-menu {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .botao-menu button {
+        padding: 8px;
+    }
+
+}
+
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        .container {
+            max-width: 90%;
+        }
+        .botao-menu {
+            display: none;
+        }
+
+        .destaque .descricao a  {
+            font-size: 1.5em;
+            
+        }
+
+        .descontos {
+            grid-template-columns: repeat(2, 49%);
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .botao-menu {
+            display: none;
+        }
+    }
 
 
